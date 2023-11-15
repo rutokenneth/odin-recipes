@@ -7,5 +7,28 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    border: none;
 }
 
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f7fa;
+
+}
+
+.recipes {
+    list-style: none;
+}
+
+a::hover {
+    color: azure;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
