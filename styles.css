@@ -11,25 +11,50 @@
     border: none;
 }
 
+h1 {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+}
+
 .main {
     display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    justify-content: center;
     height: 100vh;
     background-color: #f5f7fa;
+    gap: 50px;
 
 }
 
-.recipes {
-    list-style: none;
-}
 
 a::hover {
     color: azure;
 }
 
+
+.header {
+    width: 500PX;
+    height: 900px;
+}
+
+.flex-item {
+    height: 120px;
+    width: 320px;
+    
+}
+.flex-item > img {
+    width: 100%;
+    border-radius: 10%;
+}
+
 .footer {
     display: flex;
-    justify-content: space-between;
+    
+    justify-content: space-around;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 20px;
+    background-color: rgb(255, 234, 0);
+    height: 100px;
 }
